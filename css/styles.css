@@ -45,8 +45,68 @@ html {
     border-bottom: 2px solid #87ceeb;
 }
 
+/* Hero Section */
+#hero {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+}
+
+.carousel-item img {
+    height: 100vh; /* Full viewport height */
+    object-fit: cover; /* Ensure image scales nicely */
+    filter: brightness(60%); /* Fades the image for better text visibility */
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff; /* White text */
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); /* Text shadow for contrast */
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.carousel-caption .btn {
+    background-color: #1E3A8A; /* Dark blue button */
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-caption .btn:hover {
+    background-color: #87CEEB; /* Light blue hover effect */
+}
+
+.about {
+/*    height: 75vh;*/
+    background-color: #f5f5f5;
+}
+
+.products {
+/*    height: 50vh;*/
+    background-color: #FFFFFF;
+}
+
+.contact {
+/*    height: 75vh;*/
+    color: #f5f5f5;
+}
+
 footer {
     background-color: #1E3A8A;
-    color: #FFFFFF;
-    
+    color: #FFFFFF; 
 }
