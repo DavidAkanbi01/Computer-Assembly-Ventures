@@ -16,7 +16,7 @@ p {
 
 /*background colour for navbar*/
 .custom-navbar {
-    background-color: #1e3a8a;
+    background-color: #007bff;
     padding: 15px;
 }
 
@@ -53,7 +53,7 @@ p {
 /* Hero Section */
 #hero {
     position: relative;
-    height: 100vh; /* Full viewport height */
+    /*height: 100vh; /* Full viewport height */
     overflow: hidden;
 }
 

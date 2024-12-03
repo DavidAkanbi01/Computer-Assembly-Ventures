@@ -1,0 +1,45 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Section Headings */
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Mission and Vision Section */
+#mission-vision {
+  background-color: #f8f9fa;
+}
+
+/* Services Section */
+#services ul {
+  font-size: 1.1rem;
+}
+
+#services ul li {
+  margin-bottom: 10px;
+}
+
+/* Values Section */
+#values .col-md-3 h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Team Section */
+#team img {
+  border: 3px solid #007bff; /* Blue border */
+  border-radius: 50%;
+}
+
+/* Footer */
+footer {
+  background-color: #007bff;
+  color: #fff;
+}
