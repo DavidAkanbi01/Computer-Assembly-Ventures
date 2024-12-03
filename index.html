@@ -109,7 +109,7 @@
 </section>
 <!--  about ends here  -->
 <!--  products section which leads to another page  -->
-    <div class="products">
+    <!--<div class="products">
         <div class="container">
         <div class="row">
           <div class="col-xl-4">
@@ -138,10 +138,97 @@
           </div>
       </div>
     </div>
+  </div> -->
+  <section id="products" class="py-5 bg-light">
+  <div class="container">
+    <!-- Section Title -->
+    <h2 class="text-primary text-center mb-4">Our Products</h2>
+    <p class="text-center text-secondary mb-5">
+      Explore our wide range of IT-related devices and accessories tailored to meet your needs.
+    </p>
+
+    <!-- Product Categories -->
+    <div class="row">
+      <!-- Desktop Category -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="desktop-category.jpg" class="card-img-top" alt="Desktops">
+          <div class="card-body text-center">
+            <h5 class="card-title">Desktops</h5>
+            <p class="card-text text-muted">
+              High-performance desktops for home and office.
+            </p>
+            <a href="products.html#desktops" class="btn btn-outline-primary btn-sm">Explore</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Laptop Category -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="laptop-category.jpg" class="card-img-top" alt="Laptops">
+          <div class="card-body text-center">
+            <h5 class="card-title">Laptops</h5>
+            <p class="card-text text-muted">
+              Sleek and powerful laptops for work and play.
+            </p>
+            <a href="products.html#laptops" class="btn btn-outline-primary btn-sm">Explore</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Networking Devices Category -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="network-category.jpg" class="card-img-top" alt="Networking Devices">
+          <div class="card-body text-center">
+            <h5 class="card-title">Networking Devices</h5>
+            <p class="card-text text-muted">
+              Routers, switches, and more for seamless connectivity.
+            </p>
+            <a href="products.html#networking" class="btn btn-outline-primary btn-sm">Explore</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Printers Category -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="printer-category.jpg" class="card-img-top" alt="Printers">
+          <div class="card-body text-center">
+            <h5 class="card-title">Printers</h5>
+            <p class="card-text text-muted">
+              Reliable printers for all your printing needs.
+            </p>
+            <a href="products.html#printers" class="btn btn-outline-primary btn-sm">Explore</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accessories Category -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm">
+          <img src="accessories-category.jpg" class="card-img-top" alt="Accessories">
+          <div class="card-body text-center">
+            <h5 class="card-title">Accessories</h5>
+            <p class="card-text text-muted">
+              Keyboards, mice, headsets, and more.
+            </p>
+            <a href="products.html#accessories" class="btn btn-outline-primary btn-sm">Explore</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- View All Products Button -->
+      <div class="col-md-12 text-center mt-4">
+        <a href="products.html" class="btn btn-primary btn-lg">View All Products</a>
+      </div>
+    </div>
   </div>
+</section>
 <!--  products section ends here  -->
 <!--  contact form  -->
-  <div class="contact">
+<!--  <div class="contact">
     <div class="container">
       <form>
         <div class="form-group">
@@ -159,9 +246,79 @@
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
+    </div>-->
+<section id="contact" class="py-5">
+  <div class="container">
+    <!-- Section Title -->
+    <h2 class="text-primary text-center mb-4">Get in Touch</h2>
+    <p class="text-center text-secondary mb-5">
+      Have questions about our products? Fill out the form below, and we'll get back to you shortly.
+    </p>
+
+    <!-- Contact Form -->
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Write your message here" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+        </form>
+      </div>
     </div>
+  </div>
+</section>
 <!--  contact form ends here  -->
-<footer>Content for New footer Tag Goes Here</footer>
+<footer class="py-4 bg-primary text-white">
+  <div class="container text-center">
+    <div class="row">
+      <!-- Company Info -->
+      <div class="col-md-4 mb-3">
+        <h5>About Us</h5>
+        <p>
+          Your trusted source for quality IT devices and accessories.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-3">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#home" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="#about" class="text-white text-decoration-none">About</a></li>
+          <li><a href="#products" class="text-white text-decoration-none">Products</a></li>
+          <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-4 mb-3">
+        <h5>Contact</h5>
+        <p>
+          <i class="fa fa-phone"></i> +1 (123) 456-7890<br>
+          <i class="fa fa-envelope"></i> info@example.com
+        </p>
+        <!-- Social Media Links -->
+        <a href="#" class="text-white mx-2"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="text-white mx-2"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="text-white mx-2"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+    <!-- Copyright -->
+    <div class="mt-3">
+      <small>&copy; 2024 Your Company. All Rights Reserved.</small>
+    </div>
+  </div>
+</footer>
 </div>
 <script src="js/jquery-3.4.1.min.js"></script> 
 <script src="js/popper.min.js"></script> 
