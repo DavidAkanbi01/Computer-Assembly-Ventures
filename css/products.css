@@ -22,3 +22,9 @@ section h2 {
 .card-text {
   font-size: 0.9rem;
 }
+
+/* Footer */
+footer {
+  background-color: #007bff;
+  color: #fff;
+}
