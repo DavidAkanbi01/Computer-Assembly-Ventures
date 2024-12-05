@@ -11,9 +11,37 @@ h2 {
   font-weight: bold;
 }
 
+/* Introductory Section for Managing Director */
+#team {
+  background-color: #f8f9fa; /* Light background for contrast */
+  padding: 3rem 0;
+}
+
+#team img {
+  border: 3px solid #007bff; /* Blue border */
+  border-radius: 50%; /* Circular image */
+}
+
+#team h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+#team h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#team p {
+  font-size: 1rem;
+  color: #6c757d; /* Muted text for description */
+  line-height: 1.6;
+}
+
 /* Mission and Vision Section */
 #mission-vision {
-  background-color: #f8f9fa;
+  /*background-color: #f8f9fa;*/
 }
 
 /* Services Section */
@@ -30,12 +58,6 @@ h2 {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 10px;
-}
-
-/* Team Section */
-#team img {
-  border: 3px solid #007bff; /* Blue border */
-  border-radius: 50%;
 }
 
 /* Footer */

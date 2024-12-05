@@ -1,0 +1,24 @@
+/* General Section Styling */
+main section {
+  padding: 2rem 0;
+}
+
+section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
