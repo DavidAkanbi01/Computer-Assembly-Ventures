@@ -4,8 +4,9 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Welcome | CAV</title>
+<title>About Us - Computer Assembly Ventures</title>
 <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<link href="css/about.css" rel="stylesheet" type="text/css">
 <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -15,18 +16,91 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent1">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#about">About Us</a> </li>
-        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Products </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Laptops</a> <a class="dropdown-item" href="#">Accesories</a> 
-            <!--<div class="dropdown-divider"></div>--> 
-            <!--<a class="dropdown-item" href="#">Something else here</a>--> 
-          </div>
+        <li class="nav-item active"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">About Us</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="products.html">Products</a>
         </li>
-        <li class="nav-item"> <a class="nav-link" href="#">Contact</a> </li>
+       <li class="nav-item"> <a class="nav-link" href="#contact">Contact</a> </li>
       </ul>
     </div>
   </nav>
+  <header class="bg-primary text-white text-center py-5">
+    <h1>About Computer Assembly Ventures</h1>
+    <p>Your Premier Destination for Innovative Technology Solutions</p>
+  </header>
+
+  <section id="mission-vision" class="py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Mission -->
+        <div class="col-md-6">
+          <h2 class="text-primary">Our Mission</h2>
+          <p>
+            At Computer Assembly Ventures, we aim to bridge the digital divide in Nigeria by providing affordable, efficient, and customized computing solutions. 
+            Our team of experts is committed to delivering exceptional products and services, empowering our customers to succeed in today's technology-driven world.
+          </p>
+        </div>
+        <!-- Vision -->
+        <div class="col-md-6">
+          <h2 class="text-primary">Our Vision</h2>
+          <p>
+            To be the leading provider of innovative technology solutions that empower individuals and businesses, ensuring a brighter and more connected future.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center text-primary mb-4">Our Services</h2>
+      <ul class="list-unstyled">
+        <li><i class="fas fa-check text-success"></i> Sales of Laptops, Desktops, Printers, Copiers, Scanners, and Accessories</li>
+        <li><i class="fas fa-check text-success"></i> Computer Repair and Maintenance</li>
+        <li><i class="fas fa-check text-success"></i> Networking and IT Solutions</li>
+        <li><i class="fas fa-check text-success"></i> Software Development and Installation</li>
+        <li><i class="fas fa-check text-success"></i> IT Training and Consultancy</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="values" class="py-5">
+    <div class="container">
+      <h2 class="text-center text-primary mb-4" id="our_values">Our Values</h2>
+      <p class="text-center">We uphold the following principles to ensure customer satisfaction and trust:</p>
+      <div class="row text-center">
+        <div class="col-md-3">
+          <h5>Quality</h5>
+          <p>We sell only genuine components from reputable manufacturers.</p>
+        </div>
+        <div class="col-md-3">
+          <h5>Expertise</h5>
+          <p>Years of experience in computer assembly and repair.</p>
+        </div>
+        <div class="col-md-3">
+          <h5>Competitive Pricing</h5>
+          <p>Affordable solutions without compromising quality.</p>
+        </div>
+        <div class="col-md-3">
+          <h5>Customer Support</h5>
+          <p>Prompt and reliable after-sales service.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center text-primary mb-4">Meet Our Team</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img src="manager.jpg" alt="Chris Nwanze Ekennia" class="img-fluid rounded-circle mb-2" style="width: 150px;">
+          <h5>Chris Nwanze Ekennia</h5>
+          <p>Managing Director</p>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- banner section -->
   <section id="hero">
     <div id="heroCarousel" class="carousel slide" data-ride="carousel">
@@ -82,86 +156,9 @@
     </div>
 </section>
 <!-- banner ends here -->
-<!--  about the company-->
-  <section id="about" class="about py-5">
-    <div class="container">
-        <div class="row align-items-center">
-            <!-- About Text -->
-            <div class="col-md-6">
-                <h2 class="text-primary mb-4">Who We Are</h2>
-                <p>
-                    Welcome to our store! We specialize in providing high-quality computer accessories, laptops, and networking devices. 
-                    With years of experience, we are dedicated to offering top-notch products and exceptional customer service.
-                </p>
-                <ul class="list-unstyled">
-                    <li><i class="fas fa-check text-success"></i> Trusted by thousands of customers</li>
-                    <li><i class="fas fa-check text-success"></i> Affordable pricing</li>
-                    <li><i class="fas fa-check text-success"></i> Quality assurance on all products</li>
-                </ul>
-                <a href="#products" class="btn btn-primary mt-3">View Our Products</a>
-            </div>
-            <!-- About Image -->
-            <div class="col-md-6">
-                <img src="images/pct.png" alt="About Us" class="img-fluid rounded">
-            </div>
-        </div>
-    </div>
-</section>
-<!--  about ends here  -->
-<!--  products section which leads to another page  -->
-    <div class="products">
-        <div class="container">
-        <div class="row">
-          <div class="col-xl-4">
-            <div class="card col-md-4 col-xl-12"> <img class="card-img-top" src="images/thr.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a> </div>
-            </div>
-          </div>
-          <div class="col-xl-4">
-            <div class="card col-md-4 col-xl-12"> <img class="card-img-top" src="images/thr2.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a> </div>
-            </div>
-          </div>
-          <div class="col-xl-4">
-            <div class="card col-md-4 col-xl-12"> <img class="card-img-top" src="images/thr1.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a> </div>
-            </div>
-          </div>
-      </div>
-    </div>
-  </div>
-<!--  products section ends here  -->
-<!--  contact form  -->
-  <div class="contact">
-    <div class="container">
-      <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-          <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone else.</small> </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-    </div>
-    </div>
-<!--  contact form ends here  -->
-<footer>Content for New footer Tag Goes Here</footer>
+  <footer class="bg-primary text-white text-center py-3">
+    <p>&copy; 2024 Computer Assembly Ventures. All Rights Reserved.</p>
+  </footer>
 </div>
 <script src="js/jquery-3.4.1.min.js"></script> 
 <script src="js/popper.min.js"></script> 
