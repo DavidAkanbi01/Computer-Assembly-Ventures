@@ -56,7 +56,7 @@ p {
   font-size: 1rem; /* 16px */
   font-weight: 400; /* Normal */
   font-family: 'Roboto', sans-serif;
-  color: #333; /* Dark gray for readability */
+/*  color: #333;  /*Dark gray for readability */
 }
 
 p.lead {
@@ -239,8 +239,9 @@ p.lead {
   color: #fff;
 }
 .card-img-top {
+  padding-top: 15px;
   width: 100%;
-  height: auto; /* Maintains the image's aspect ratio */
+  height: 200px; /* Maintains the image's aspect ratio */
   object-fit: contain; /* Fits the entire image inside the card */
 }
 /*product section ends*/
