@@ -9,12 +9,99 @@ html {
     scroll-behavior: smooth;
 }
 
-/*
-p {
-    color: #6c7570;
-    font-family: Roboto, open sans serif;
+/* Adjust for fixed-top navbar */
+body {
+  padding-top: 70px; /* Adjust this value based on your navbar height */
+  font-family: 'Roboto', sans-serif; /* Primary font */
+  line-height: 1.6; /* Improves readability */
 }
-*/
+
+h1 {
+  font-size: 2.5rem; /* 40px */
+  font-weight: 700;  /* Bold */
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 2rem; /* 32px */
+  font-weight: 600; /* Semi-bold */
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-size: 1.75rem; /* 28px */
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+  font-size: 1.5rem; /* 24px */
+  font-weight: 500; /* Medium */
+  font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+  font-size: 1.25rem; /* 20px */
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+h6 {
+  font-size: 1rem; /* 16px */
+  font-weight: 400; /* Normal */
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-size: 1rem; /* 16px */
+  font-weight: 400; /* Normal */
+  font-family: 'Roboto', sans-serif;
+  color: #333; /* Dark gray for readability */
+}
+
+p.lead {
+  font-size: 1.125rem; /* 18px */
+  font-weight: 400;
+  color: #444; /* Slightly lighter gray */
+}
+
+.card-title {
+  font-size: 1.2rem; /* 19px */
+  font-weight: 600; /* Semi-bold */
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-text {
+  font-size: 1rem; /* 16px */
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  color: #555; /* Lighter gray */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* 24px */
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-link {
+  font-size: 1rem; /* 16px */
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero h1 {
+  font-size: 3rem; /* 48px */
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero p {
+  font-size: 1.25rem; /* 20px */
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+
 
 /*background colour for navbar*/
 .custom-navbar {
@@ -131,11 +218,11 @@ p {
 #products {
   background-color: #f8f9fa;
 }
-.card img {
+/*.card img {
   height: 200px;
   object-fit: cover;
   border-radius: 5px 5px 0 0;
-}
+}*/
 .card-title {
   font-size: 1.2rem;
   font-weight: bold;
@@ -150,6 +237,11 @@ p {
 .btn-outline-primary:hover {
   background-color: #007bff;
   color: #fff;
+}
+.card-img-top {
+  width: 100%;
+  height: auto; /* Maintains the image's aspect ratio */
+  object-fit: contain; /* Fits the entire image inside the card */
 }
 /*product section ends*/
 
@@ -255,4 +347,30 @@ footer small {
   font-size: 0.75rem;
   color: #e9ecef; /* Bootstrap's light text */
 }
+
+footer h5 {
+  font-size: 1.25rem; /* 20px */
+  font-weight: 600;
+  color: #fff;
+}
+
+footer p,
+footer ul li {
+  font-size: 1rem; /* 16px */
+  font-weight: 400;
+  color: #ddd;
+}
 /*footer ends*/
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem; /* 32px */
+  }
+  h2 {
+    font-size: 1.75rem; /* 28px */
+  }
+  p,
+  .card-text {
+    font-size: 0.9rem; /* 14px */
+  }
+}

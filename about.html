@@ -8,6 +8,7 @@
 <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
 <link href="css/about.css" rel="stylesheet" type="text/css">
 <link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -184,6 +185,12 @@
     <p>&copy; 2024 Computer Assembly Ventures. All Rights Reserved.</p>
   </footer>
 </div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+  const navbarHeight = document.querySelector(".navbar").offsetHeight;
+  document.body.style.paddingTop = navbarHeight + "px";
+});
+</script>
 <script src="js/jquery-3.4.1.min.js"></script> 
 <script src="js/popper.min.js"></script> 
 <script src="js/bootstrap-4.4.1.js"></script>
