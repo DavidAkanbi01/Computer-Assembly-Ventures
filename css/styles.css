@@ -1,3 +1,5 @@
+
+
 * {
     box-sizing: border-box !important;
     margin: 0;
@@ -147,7 +149,7 @@ p.lead {
 }
 
 .carousel-item img {
-    height: 100vh; /* Full viewport height */
+    height: 50vh; /* Full viewport height */
     object-fit: cover; /* Ensure image scales nicely */
     filter: brightness(60%); /* Fades the image for better text visibility */
 }
@@ -360,6 +362,16 @@ footer ul li {
   font-size: 1rem; /* 16px */
   font-weight: 400;
   color: #ddd;
+}
+
+footer a {
+  font-size: 1.5rem; /* Increase icon size */
+  transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+footer a:hover {
+  color: #d1ecf1; /* Light blue hover effect */
+  transform: scale(1.2); /* Slight zoom on hover */
 }
 /*footer ends*/
 

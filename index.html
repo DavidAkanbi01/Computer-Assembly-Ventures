@@ -8,6 +8,8 @@
 <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
 <link href="css/styles.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body >
@@ -221,8 +223,10 @@
         <!-- Contact Info -->
         <div class="col-md-4 mb-3">
           <h5>Contact</h5>
-          <p> <i class="fa fa-phone"></i> +1 (123) 456-7890<br>
-            <i class="fa fa-envelope"></i> info@example.com </p>
+          <p><i class="fa-solid fa-phone"></i>&nbsp; 09094359365, 09135529227<br>
+            <i class="fa fa-envelope"></i>&nbsp; info@computerassembly.com.ng<br>
+            <i class="fa-solid fa-location-dot"></i>&nbsp; L1 Jos Road by Ahmadu Bello Way, Kaduna
+            </p>
           <!-- Social Media Links --> 
           <a href="#" class="text-white mx-2"><i class="fa fa-facebook"></i></a> <a href="#" class="text-white mx-2"><i class="fa fa-twitter"></i></a> <a href="#" class="text-white mx-2"><i class="fa fa-instagram"></i></a> </div>
       </div>
@@ -232,9 +236,25 @@
   </footer>
 </div>
 <script>
+// To remove navbar from overlapping 
   document.addEventListener("DOMContentLoaded", function () {
   const navbarHeight = document.querySelector(".navbar").offsetHeight;
   document.body.style.paddingTop = navbarHeight + "px";
+});
+
+//To collapse navbar
+document.addEventListener("DOMContentLoaded", function () {
+  const navLinks = document.querySelectorAll(".nav-link");
+  const navbarCollapse = document.querySelector(".navbar-collapse");
+
+  navLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      // Collapse the navbar menu
+      if (navbarCollapse.classList.contains("show")) {
+        new bootstrap.Collapse(navbarCollapse).hide();
+      }
+    });
+  });
 });
 </script>
 <script src="js/jquery-3.4.1.min.js"></script> 
