@@ -149,7 +149,7 @@ p.lead {
 }
 
 .carousel-item img {
-    height: 50vh; /* Full viewport height */
+    height: 75vh; /* Full viewport height */
     object-fit: cover; /* Ensure image scales nicely */
     filter: brightness(60%); /* Fades the image for better text visibility */
 }
